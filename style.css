@@ -49,15 +49,13 @@
   
   .photo {
     flex: 0 0 10%;
-    height: 150px;
-    background-color: #800000;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
     margin: 0 5px;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    border: 2px solid #ff0000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+  
   
   .letter-section {
     background: linear-gradient(to bottom right, #990000, #660000);
