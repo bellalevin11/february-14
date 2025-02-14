@@ -9,6 +9,7 @@
   }
   
   body {
+    margin-top: 1rem;
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     background: linear-gradient(to right, #a10000, #490000);
@@ -137,3 +138,26 @@
     }
   }
   
+  @media (max-width: 768px) {
+    body {
+      overflow-y: auto; /* Enables vertical scrolling on smaller screens */
+      height: auto;     /* Allow content to define height */
+    }
+  
+    .container {
+      height: auto;    /* Adjust container height for scrollable content */
+    }
+  
+    .photo-slider {
+      height: 120px;   /* Increase height for better visibility on phones */
+    }
+  
+    .photo {
+      flex: 0 0 30%;   /* Adjust width of photos for smaller screens */
+      height: 120px;
+    }
+  
+    .letter-section {
+      font-size: 1rem; /* Slightly larger font for easier reading on phones */
+    }
+  }
