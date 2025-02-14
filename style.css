@@ -14,8 +14,8 @@
     font-optical-sizing: auto;
     background: linear-gradient(to right, #a10000, #490000);
     color: #ffffff;
-    overflow: hidden; /* Prevents scrolling */
-    height: 100vh;    /* Full viewport height */
+    overflow: hidden; 
+    height: 100vh;   
   }
 
   .body {
